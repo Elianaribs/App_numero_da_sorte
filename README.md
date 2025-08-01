@@ -1,18 +1,18 @@
-# Número da Sorte
+# Número da Sorte 🍀
 
 Aplicativo desenvolvido como parte do curso de Desenvolvimento Mobile com Flutter oferecido pela Venturus.
 
-# 📱 Sobre
+## 📱 Sobre
 
 Número da Sorte é um aplicativo simples e intuitivo que gera um número aleatório da sorte ao toque de um botão. Ideal para quem gosta de testar a sorte ou precisa de uma ajudinha na hora de escolher um número!
 
-# 🚀 Tecnologias
+## 🚀 Tecnologias
 
     Flutter
 
     Dart
 
-# 🎓 Curso
+## 🎓 Curso
 
 Este projeto foi desenvolvido durante o curso de Desenvolvimento Mobile com Flutter promovido pela Venturus, com o objetivo de aplicar na prática os conhecimentos adquiridos em:
 
@@ -24,7 +24,7 @@ Este projeto foi desenvolvido durante o curso de Desenvolvimento Mobile com Flut
 
     Atualização de estado com setState
 
-# 📦 Como executar
+## 📦 Como executar
 
     Clone o repositório:
 
@@ -38,7 +38,7 @@ Rode o app:
 
     flutter run
 
-# 🧠 Autor
+## 🧠 Autor
 
 Eliana Ribeiro da Silva
 Projeto acadêmico – Venturus

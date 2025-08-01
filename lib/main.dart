@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -40,9 +41,9 @@ class _MainAppState extends State<MainApp> {
         appBar: AppBar(
           centerTitle: true,
           toolbarHeight: 100,
-          title: const Text(
-            'Número da Sorte 🎲',
-            style: TextStyle(
+          title: Text(
+            'Número da Sorte 🍀',
+            style: GoogleFonts.lobster(
               color: Colors.white,
               fontSize: 30,
               fontWeight: FontWeight.bold,
@@ -61,35 +62,35 @@ class _MainAppState extends State<MainApp> {
               // crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Text(
-                  'Hoje é seu dia de sorte! Clique no botão abaixo e confira!',
+                  'Hoje é seu dia de sorte? Clique no botão abaixo e confira!',
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: GoogleFonts.lobster(
                     color: Colors.black87,
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                    fontWeight: FontWeight.normal,
                   ),
                 ),
                 Container(
                   // color: Colors.amberAccent,
                   padding: EdgeInsets.symmetric(horizontal: 50),
                   // decoration: BoxDecoration(
-                    // gradient: LinearGradient(
-                    //   colors: [
-                    //     Colors.deepPurpleAccent.shade100,
-                    //     Colors.deepPurpleAccent.shade700,
-                    //   ],
-                    //   begin: Alignment.topLeft,
-                    //   end: Alignment.bottomRight,
-                    // ),
-                    // border: Border.all(color: Colors.black87, width: 5),
-                    // borderRadius: BorderRadius.circular(20),
-                    // boxShadow: [
-                    //   BoxShadow(
-                    //     color: Colors.black87,
-                    //     blurRadius: 10,
-                    //     offset: Offset(10, 10),
-                    //   ),
-                    // ],
+                  // gradient: LinearGradient(
+                  //   colors: [
+                  //     Colors.deepPurpleAccent.shade100,
+                  //     Colors.deepPurpleAccent.shade700,
+                  //   ],
+                  //   begin: Alignment.topLeft,
+                  //   end: Alignment.bottomRight,
+                  // ),
+                  // border: Border.all(color: Colors.black87, width: 5),
+                  // borderRadius: BorderRadius.circular(20),
+                  // boxShadow: [
+                  //   BoxShadow(
+                  //     color: Colors.black87,
+                  //     blurRadius: 10,
+                  //     offset: Offset(10, 10),
+                  //   ),
+                  // ],
                   // ),
                   child: Text(
                     _text,
@@ -103,7 +104,7 @@ class _MainAppState extends State<MainApp> {
                 Text(
                   _alert,
                   style: TextStyle(
-                    color: Color(0xff8716d5),
+                    color: Colors.green,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),
@@ -114,7 +115,7 @@ class _MainAppState extends State<MainApp> {
                   child: ElevatedButton(
                     onPressed: _generateRandom,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Color(0xff8716d5),
+                      backgroundColor: Colors.green,
                       foregroundColor: Colors.white,
                       padding: EdgeInsets.symmetric(
                         horizontal: 60,
@@ -133,7 +134,7 @@ class _MainAppState extends State<MainApp> {
                       ? ''
                       : 'Números já sorteados: \n${_randomNumberList.toString()}',
                   style: TextStyle(
-                    color: Color(0xff8716d5),
+                    color: Colors.green,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),

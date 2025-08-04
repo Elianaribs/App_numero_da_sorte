@@ -30,11 +30,11 @@ Este projeto foi desenvolvido durante o curso de Desenvolvimento Mobile com Flut
 
     Clone o repositório:
 
-git clone https://github.com/seuusuario/numero-da-sorte.git
+git clone https://github.com/Elianaribs/App_numero-da-sorte.git
 
 Acesse a pasta do projeto:
 
-cd numero-da-sorte
+cd App_numero-da-sorte
 
 Rode o app:
 
